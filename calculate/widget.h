@@ -22,5 +22,28 @@ private:
     QWidget *main_widget;
     QGridLayout *numbers_gridlayout;
     QPushButton *n1;
+    QPushButton *n2;
+    QPushButton *n3;
+    QPushButton *n4;
+    QPushButton *n5;
+    QPushButton *n6;
+    QPushButton *n7;
+    QPushButton *n8;
+    QPushButton *n9;
+    QPushButton *n0;
+
+    QPushButton *coma;
+    QPushButton *plus_or_minus;
+    QPushButton *delete_button2;
+    QPushButton *delete_button;
+    QPushButton *divide;
+    QPushButton *multiplication;
+    QPushButton *subtraction;
+    QPushButton *addition;
+    QPushButton *backspace;
+    QPushButton *equal;
+
+    void addPushButtonsToGridLayout();
+
 };
 #endif // WIDGET_H
