@@ -4,6 +4,8 @@
 #include <QWidget>
 #include <QGridLayout>
 #include <QPushButton>
+#include <QVBoxLayout>
+#include <QLineEdit>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -31,7 +33,6 @@ private:
     QPushButton *n8;
     QPushButton *n9;
     QPushButton *n0;
-
     QPushButton *coma;
     QPushButton *plus_or_minus;
     QPushButton *delete_button2;
@@ -42,6 +43,7 @@ private:
     QPushButton *addition;
     QPushButton *backspace;
     QPushButton *equal;
+    QLineEdit *result;
 
     void addPushButtonsToGridLayout();
 

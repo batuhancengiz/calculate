@@ -9,13 +9,14 @@ Widget::Widget(QWidget *parent)
     this->setMinimumSize(QSize(400,600));
     this->resize(QSize(400,600));
 
+
     main_widget = new QWidget(this);
     //main_widget->setStyleSheet("background-color: white");
-    //main_widget->set
 
     numbers_gridlayout = new QGridLayout(main_widget);
     numbers_gridlayout->setSpacing(3);
 
+    result = new QLineEdit(main_widget);
 
     n1 = new QPushButton(main_widget);
     n1->setStyleSheet("background: red");
