@@ -22,6 +22,7 @@ public:
 private:
     Ui::Widget *ui;
     QWidget *main_widget;
+    QWidget* result_widget;
     QGridLayout *numbers_gridlayout;
     QPushButton *n1;
     QPushButton *n2;
